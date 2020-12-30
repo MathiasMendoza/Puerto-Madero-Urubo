@@ -276,6 +276,10 @@
 			Btn1.setAttribute("href", link)
 			Btn2.setAttribute("href", link)
 			console.log("Buttons Href has changed!")
+			
+			$('.navbar-collapse a').click(function(){
+            			$(".navbar-collapse").collapse('hide');
+        		});
 
 		</script>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
