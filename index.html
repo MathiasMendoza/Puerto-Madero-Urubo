@@ -278,7 +278,9 @@
 			console.log("Buttons Href has changed!")
 			
 			$('.navbar-collapse a').click(function(){
-            			$(".navbar-collapse").collapse('hide');
+				setTimeout(function(){
+					$(".navbar-collapse").collapse('hide');
+				}, 1000);
         		});
 
 		</script>
