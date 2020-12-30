@@ -271,8 +271,11 @@
 
 			}
 			console.log("Link:", link)
-			document.getElementById("#contactBtn1").href = link
-			document.getElementById("#contactBtn2").href = link
+			var Btn1 = document.getElementById("#contactBtn1")
+			var Btn2 = document.getElementById("#contactBtn2")
+			Btn1.setAttribute("href", link)
+			Btn2.setAttribute("href", link)
+			console.log("Buttons Href has changed!")
 
 		</script>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
