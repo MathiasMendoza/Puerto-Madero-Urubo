@@ -348,6 +348,11 @@ hr.socket{
     margin-right: 0;
   }
 }
+@media (max-width: 365px){
+  .navbar-brand{
+    width: max-content;
+  }
+}
 
 
 
