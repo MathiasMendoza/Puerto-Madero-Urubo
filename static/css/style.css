@@ -3,6 +3,9 @@
 
 
 /* BODY SECTION */
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
 body{
   overflow-x: hidden;
   font-family: 'Vollkorn', serif;
