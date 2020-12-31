@@ -290,9 +290,6 @@ hr.socket{
   .navbar-brand{
     width: max-content;
   }
-  .navbar-brand span{
-    display: none;
-  }
   .caption h1{
     font-size: 2rem;
     letter-spacing: .15rem;
@@ -332,6 +329,11 @@ hr.socket{
     padding: .6rem 1rem !important;
   }
 
+}
+@media (max-width: 600px){
+  .navbar-brand span{
+    display: none;
+  }
 }
 @media (max-width: 979px) {
   .navbar-fixed-top, .navbar-fixed-bottom {
