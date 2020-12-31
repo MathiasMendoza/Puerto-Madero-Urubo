@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6, p:hover{
   display: block;
   content: "";
   height: 4rem;
+  margin-top: -4rem !important;
 }
 
 /* NAVIGATION BAR */
