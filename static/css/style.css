@@ -286,7 +286,7 @@ hr.socket{
 
 
 /* MEDIA QUERIES */
-@media (max-width: 767px){
+@media (max-width: 867px){
   .navbar-brand{
     width: max-content;
   }
