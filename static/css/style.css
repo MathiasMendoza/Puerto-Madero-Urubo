@@ -6,6 +6,9 @@
 video::-webkit-media-controls-start-playback-button {
   display: none !important;
 }
+video::-internal-media-controls-overlay-cast-button {
+    display: none;
+}
 body{
   overflow-x: hidden;
   font-family: 'Vollkorn', serif;
