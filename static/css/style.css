@@ -361,6 +361,9 @@ hr.socket{
   }
 }
 @media (max-width: 390px){
+  #promocion h1{
+    font-size: 1.2rem !important;
+  }
   .btn-secondary{
     font-size: 0.9rem !important;
   }
