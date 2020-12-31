@@ -147,7 +147,6 @@ h1, h2, h3, h4, h5, h6, p:hover{
   border-width: medium !important;
   border-radius: 0;
   text-transform: uppercase;
-  font-size: 1.2rem;
   padding: .6rem 1.2rem !important;
   margin: 0 auto !important;
   color: white;
@@ -359,6 +358,11 @@ hr.socket{
 @media (max-width: 355px){
   .navbar-brand #puertomadero-brand{
     font-size: 15px !important;
+  }
+}
+@media (max-width: 390px){
+  .btn-secondary{
+    font-size: 0.9rem !important;
   }
 }
 
