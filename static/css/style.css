@@ -337,7 +337,7 @@ hr.socket{
 
 }
 @media (max-width: 600px){
-  .navbar-brand span{
+  .navbar-brand span #urubo-brand{
     display: none;
   }
 }
@@ -352,6 +352,11 @@ hr.socket{
   .navbar-brand{
     width: min-content;
     margin-right: 0 !important;
+  }
+}
+@media (max-width: 355px){
+  .navbar-brand span #puertomadero-brand{
+    width: min-content;
   }
 }
 
