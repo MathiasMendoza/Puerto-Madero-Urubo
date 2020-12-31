@@ -356,7 +356,7 @@ hr.socket{
 }
 @media (max-width: 355px){
   .navbar-brand #puertomadero-brand{
-    font-size: 0.8rem !important;
+    font-size: 15px !important;
   }
 }
 
