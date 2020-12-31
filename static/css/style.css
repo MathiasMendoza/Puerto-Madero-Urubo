@@ -333,6 +333,13 @@ hr.socket{
   }
 
 }
+@media (max-width: 979px) {
+  .navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
 
 
