@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6, p:hover{
   color:  rgb(1, 21, 59) !important;
 }
 .btn-secondary{
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
   border-width: medium !important;
   border-radius: 0;
   text-transform: uppercase;
