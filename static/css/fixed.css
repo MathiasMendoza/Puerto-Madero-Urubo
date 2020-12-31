@@ -70,6 +70,9 @@ margin-right: 0px!important;
   position: relative;
   width: 100%;
 }
+.fixed-background row{
+  height: 4rem !important;
+}
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
