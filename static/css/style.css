@@ -350,6 +350,7 @@ hr.socket{
 }
 @media (max-width: 365px){
   .navbar-brand{
+    width: min-content;
     margin-right: 0 !important;
   }
 }
