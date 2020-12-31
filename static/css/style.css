@@ -3,6 +3,9 @@
 
 
 /* BODY SECTION */
+video::-internal-media-controls-overlay-cast-button {
+    display: none !important;
+}
 body{
   overflow-x: hidden;
   font-family: 'Vollkorn', serif;
