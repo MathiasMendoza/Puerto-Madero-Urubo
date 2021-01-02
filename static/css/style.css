@@ -253,7 +253,7 @@ h3.heading{
 .clients img{
   width: 100%;
   border-radius: 50%;
-  text-shadow: .55rem .55rem .8rem black !important;
+  box-shadow: 0.15rem .15rem 0.90rem black !important;
 }
 blockquote .svg-inline--fa{
   color: rgb(8, 48, 122) !important;
