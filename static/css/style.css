@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6, p:hover{
   margin: 0 auto !important;
   color: white;
   background-color: #021b4b !important;
-  box-shadow: 10px 10px 8px 10px #021b4b !important;
+  box-shadow: 2px 2px 4px #021b4b !important;
   border-color: #021b4b !important;
   transition: all 0.5s;
 }
