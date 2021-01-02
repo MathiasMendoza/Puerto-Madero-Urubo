@@ -185,10 +185,12 @@ h3.heading{
 .feature{
   padding: 1rem 0 1rem 0 !important;
 }
+.feature i{
+  text-shadow: .55rem .55rem .8rem black !important;
+}
 .feature svg.svg-inline--fa{
   color:  rgb(8, 48, 122) !important;
   font-size: 5rem !important;
-  text-shadow: .55rem .55rem .8rem black !important;
 }
 .feature img{
   width: 100%;
