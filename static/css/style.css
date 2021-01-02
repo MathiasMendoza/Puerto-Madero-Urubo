@@ -30,10 +30,10 @@ h1, h2, h3, h4, h5, h6, p:hover{
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background: rgb(1, 21, 59) !important
+  background: rgb(1, 21, 59) !important;
 }
 .navbar-brand span{
-  text-shadow: .35rem .35rem .8rem black;
+  text-shadow: .55rem .55rem .8rem black !important;
 }
 .navbar-brand img{
   height: 3.1rem !important;
@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6, p:hover{
 }
 .navbar-nav li a{
   position: relative !important;
+  text-shadow: .55rem .55rem .8rem black !important;
 }
 .navbar-nav li a::after{
   position: absolute;
