@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6, p:hover{
   border-color: #021b4b !important;
   border-width: medium !important;
   border-radius: 0 !important;
-  box-shadow: 1px 1px 2px black !important;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
   padding: .6rem 1.3rem !important;
   font-size: 1.1rem !important;
 }
