@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6, p:hover{
 }
 .caption h3{
   font-size: 2rem;
-  text-shadow: .1rem .1rem .5rem black;
+  text-shadow: .35rem .35rem .8rem black;
   padding-bottom: 1.2rem;
 }
 .btn-lg{
