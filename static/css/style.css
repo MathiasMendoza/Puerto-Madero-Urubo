@@ -175,6 +175,7 @@ h3.heading{
   font-size: 2.2rem !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
+  text-shadow: .35rem .35rem .8rem black !important;
 }
 .heading-underline{
   width: 5.5rem !important;
@@ -216,6 +217,7 @@ h3.heading{
 #resources-h3{
   color: white;
   margin-bottom: 0.6rem !important;
+  text-shadow: .35rem .35rem .8rem black !important;
 }
 #resources-underline{
   background-color: rgb(8, 48, 122) !important;
@@ -230,6 +232,7 @@ h3.heading{
 }
 .fixed-background h3{
   margin-bottom: 2rem;
+  text-shadow: .35rem .35rem .8rem black !important;
 }
 .fixed-background p{
   margin-top: 1.5rem;
@@ -257,6 +260,9 @@ blockquote .svg-inline--fa{
 }
 
 /* CONTACT SECTION */
+p.lead{
+  text-shadow: .35rem .35rem .8rem black !important;
+}
 footer{
   /* background-color:rgb(5, 25, 63); */
   background-color:rgb(1, 21, 59);
@@ -270,6 +276,7 @@ footer{
 #brand-footer{
   font-size: 1.5rem;
   color: white;
+  text-shadow: .35rem .35rem .8rem black !important;
 }
 #brand-footer:hover{
   text-decoration: none;
@@ -283,6 +290,7 @@ footer a{
 footer svg.svg-inline--fa{
   font-size: 1.6rem;
   margin: 0rem .5rem 0 0;
+  text-shadow: .35rem .35rem .8rem black !important;
   transition: all 1s;
 }
 footer .svg-inline--fa:hover{
