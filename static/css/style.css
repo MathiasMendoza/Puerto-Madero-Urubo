@@ -175,7 +175,7 @@ h3.heading{
   font-size: 2.2rem !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
-  text-shadow: .15rem .15rem .3rem black !important;
+  text-shadow: .35rem .35rem .8rem rgb(8, 48, 122) !important;
 }
 .heading-underline{
   width: 5.5rem !important;
@@ -261,7 +261,7 @@ blockquote .svg-inline--fa{
 
 /* CONTACT SECTION */
 p.lead{
-  text-shadow: .15rem .15rem .3rem black !important;
+  text-shadow: .35rem .35rem .8rem #505962 !important;
 }
 footer{
   /* background-color:rgb(5, 25, 63); */
