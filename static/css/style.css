@@ -206,7 +206,6 @@ h3.heading{
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
-  text-shadow: .55rem .55rem .8rem black !important;
   color: rgb(39, 39, 39);
 }
 .feature p{
