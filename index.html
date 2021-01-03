@@ -73,7 +73,7 @@
 						</video>
 					</div>
 					<div class="col-md-12 narrow text-center">
-						<a href="https://wa.me/message/WGDDKQXZGDCEC1" id="contactBtn1" class="btn btn-secondary btn-md" target="_blank">Contactar un Asesor <i class="fab fa-whatsapp ml-2"></i></a>
+						<a href="#" id="contactBtn1" class="btn btn-secondary btn-md" target="_blank">Contactar un Asesor <i class="fab fa-whatsapp ml-2"></i></a>
 					</div>
 				</div>
 				<div class="fixed-wrap">
@@ -234,7 +234,7 @@
 			</div>
 			<div class="col-md-12 narrow text-center">
 				<p style="font-size: 1.45rem !important;" class="lead">Quieres contactarte con un asesor?</p>
-				<a href="https://wa.me/message/WGDDKQXZGDCEC1" id="contactBtn2" class="btn btn-secondary btn-md" target="_blank">Contactar un Asesor <i class="fab fa-whatsapp ml-2"></i></a>
+				<a href="#" id="contactBtn2" class="btn btn-secondary btn-md" target="_blank">Contactar un Asesor <i class="fab fa-whatsapp ml-2"></i></a>
 			</div>
 		</div>
 
@@ -261,6 +261,25 @@
 		
 		<!--- Script Source Files -->
 		<script>
+			var person = Math.floor(Math.random() * 3) + 1;
+			console.log("Person is:", person);
+			if(person == 1){
+				var Michelle = "https://wa.me/message/WGDDKQXZGDCEC1"
+			}
+			else if(person == 2){
+				var Gabriela = "https://bit.ly/3nDftoY"
+			}
+			else if(person == 3){
+				var Yhoselin = "https://wa.me/message/WXZXROOUJCEWL1"
+
+			}
+			console.log("Link:", link)
+			var Btn1 = document.getElementById("contactBtn1")
+			var Btn2 = document.getElementById("contactBtn2")
+			Btn1.setAttribute("href", link)
+			Btn2.setAttribute("href", link)
+			console.log("Buttons Href has changed!")
+			
 			$('.navbar-collapse a').click(function(){
 				setTimeout(function(){
 					$(".navbar-collapse").collapse('hide');
