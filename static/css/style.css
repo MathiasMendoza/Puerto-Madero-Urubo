@@ -291,7 +291,7 @@ footer a{
 #officeGPS:hover{
   text-decoration: none;
   text-underline: none;
-  
+  color: white;
 }
 footer svg.svg-inline--fa{
   font-size: 1.6rem;
