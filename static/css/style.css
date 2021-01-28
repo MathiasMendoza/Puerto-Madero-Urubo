@@ -288,6 +288,11 @@ footer p{
 footer a{
   color: white;
 }
+#officeGPS:hover{
+  text-decoration: none;
+  text-underline: none;
+  
+}
 footer svg.svg-inline--fa{
   font-size: 1.6rem;
   margin: 0rem .5rem 0 0;
