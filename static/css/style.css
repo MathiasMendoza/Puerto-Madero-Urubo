@@ -338,9 +338,9 @@ hr.socket{
     margin: 0 auto;
   }
   /* PROMO SECTION */
-  .ImgPromo{
+  #picPromo .imgPromo{
     max-width: 100% !important;
-    border-radius: 50%;
+    border-radius: 20%;
   }
   #titlePromo{
     margin: 0 auto !important;
