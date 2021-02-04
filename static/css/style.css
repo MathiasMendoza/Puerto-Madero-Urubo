@@ -23,6 +23,12 @@ h1, h2, h3, h4, h5, h6, p:hover{
   height: 4rem;
   margin-top: -4rem !important;
 }
+#Contacto.offset:before {
+    display: block;
+    content: "";
+    height: 0rem !important;
+    margin-top: -4rem !important;
+}
 
 /* NAVIGATION BAR */
 .navbar{
