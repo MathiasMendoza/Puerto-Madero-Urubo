@@ -133,6 +133,7 @@ h1, h2, h3, h4, h5, h6, p:hover{
   background-color: #052e79 !important;
   border-color: #052e79 !important;
   transform: scale(1.08);
+  color: white;
 }
 
 /* COURSE SECTION */
