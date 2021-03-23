@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6, p:hover{
 .btn-lg{
   font-size: 1.1rem !important;
   border-width: medium !important;
-  border-radius: 0;
+  border-radius: 25;
   text-transform: uppercase;
   padding: .6rem 1.2rem !important;
   margin: 0 auto !important;
@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6, p:hover{
 .btn-secondary{
   font-size: 1.1rem !important;
   border-width: medium !important;
-  border-radius: 0;
+  border-radius: 50;
   text-transform: uppercase;
   padding: .6rem 1.2rem !important;
   margin: 0 auto !important;
